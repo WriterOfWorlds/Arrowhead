@@ -1,0 +1,23 @@
+body {
+  background: white;
+}
+
+#topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #8ce99a;
+  width: 100%;
+  height: 6vh;
+  flex-shrink: fit;
+
+  #subtitle {
+    font-size: 55%;
+  }
+
+  #arrowhead {
+    padding: 1px;
+  }
+}
+
+#map { height: 500px;}

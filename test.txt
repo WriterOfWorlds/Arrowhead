@@ -1,0 +1,29 @@
+display: flex;
+  flex-shrink: fit;
+
+  #title {
+    font-size: 120%;
+  }
+  
+  #subtitle {
+    font-size: 95%;
+  }
+
+  #arrowhead {
+    padding: 1px;
+  }
+
+
+@media (max-height: 850px) {
+  #topbar {
+    height: 50px
+  }
+
+  #title {
+    font-size: 12px;
+  }
+  
+  #subtitle {
+    font-size: 9.5px;
+  }
+}
